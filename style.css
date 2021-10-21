@@ -1,0 +1,187 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+#projects, #contact, #interests, #video-home {
+	background: black;
+}
+
+
+#black-header {
+	background: black;
+	width: 50%;
+	height: 100%;
+	left: 0;
+	position: fixed;
+}
+
+#return #black-header {
+	background: white;
+	width: 50%;
+	height: 100%;
+	left: 0;
+	position: fixed;
+}
+#white-header {
+	background: white;
+	width: 50%;
+	height: 100%;
+	right: 0;
+	position: fixed;
+
+}
+
+#return #white-header{
+	background: black;
+	width: 50%;
+	height: 100%;
+	right: 0;
+	position: fixed;
+
+}
+#black-header h1 {
+	color: white;
+	margin: 50% 1% 50% 0;
+	text-align: right;
+	text-transform: uppercase;
+}
+
+#return #black-header h1 {
+	color: black;
+	margin: 50% 1% 50% 0;
+	text-align: right;
+	text-transform: uppercase;
+}
+#white-header h1 {
+	margin: 50% 0 50% 1%;
+	text-transform: uppercase;
+}
+
+#return #white-header h1 {
+	margin: 50% 0 50% 1%;
+	text-transform: uppercase;
+	color: white;
+}
+
+
+#black-header h2 {
+	color: white;
+	text-align: right;
+	margin: -40% 1% 0 0;
+}
+
+#white-header h2 {
+	margin: -40% 0 0 1%;
+}
+
+
+#black-header ul {
+	color: black;
+	text-align: right;
+	list-style: none;
+	margin: 0 15px 0 0;
+}
+
+#white-header ul {
+	color: white;
+	list-style: none;
+	margin: 0 0 0 -20px;
+	text-align: left;
+}
+li {
+	padding: 10px;
+}
+
+#black-header a {
+	text-decoration: none;
+	color: black;
+
+}
+
+#white-header a {
+	text-decoration: none;
+	color: white;
+}
+
+#video-home h2 a {
+	text-decoration: none;
+	text-align: center;
+	color: white;
+	width: 100%;
+	position: absolute;
+	top: 94%;
+	font-size: 18px;
+}
+
+.column {
+	margin: 0 0 0 10%;
+}
+
+.column img {
+	flex: 25%;
+	max-width: 25%;
+	padding: 0 30px
+}
+
+#interests h2 a {
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	width: 100%;
+	position: absolute;
+	top: 94%;
+	font-size: 18px;
+}
+
+#contact ul {
+	list-style: none;
+	text-align: center;
+	color: white;
+	margin: auto;
+	padding: 25% 0 0 0;
+	font-size: 20px;
+}
+
+#contact ul a {
+	text-decoration: none;
+	color: white;
+}
+
+#contact h2 a {
+	text-decoration: none;
+	text-align: center;
+	color: white;
+	width: 100%;
+	position: absolute;
+	top: 90%;
+	font-size: 18px;
+}
+
+
+#projects h2 {
+	text-align: center;
+	margin: 25% 0 0 0;
+	font-size: 20px;
+	color: white;
+}
+
+#projects h3 {
+	font-size: 18px;
+	text-align: center;
+	margin: 15% 0 0 0;
+}
+
+#projects h3 a {
+	text-decoration: none;
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
